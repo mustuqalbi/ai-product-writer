@@ -6,7 +6,7 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Deployed_on_Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-### Live Demo: [ai-product-writer.vercel.app](#) &nbsp;|&nbsp; Built by [ghulammustafa.dev](https://ghulammustafa.dev)
+### 🔴 Live Demo: [ai-product-writer-zeta.vercel.app](https://ai-product-writer-zeta.vercel.app/) &nbsp;|&nbsp; Built by [ghulammustafa.dev](https://ghulammustafa.dev)
 
 > Stop spending 30 minutes writing product descriptions. Enter your product details, pick a tone, and get a conversion-ready Shopify description in under 10 seconds.
 
