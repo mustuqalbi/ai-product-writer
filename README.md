@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+﻿# ✍️ AI Product Description Writer — Shopify Optimized
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js_14-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI_GPT--4o--mini-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vercel](https://img.shields.io/badge/Deployed_on_Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-First, run the development server:
+### Live Demo: [ai-product-writer.vercel.app](#) &nbsp;|&nbsp; Built by [ghulammustafa.dev](https://ghulammustafa.dev)
 
-```bash
+> Stop spending 30 minutes writing product descriptions. Enter your product details, pick a tone, and get a conversion-ready Shopify description in under 10 seconds.
+
+---
+
+## Features
+
+- AI Copywriting — GPT-4o-mini writes SEO-optimized descriptions instantly
+- 4 Tone Options — Professional, Casual, Luxury, Playful
+- Rate Limited — 5 free demo generations per visitor
+- One-click Copy — Copy to clipboard with one button
+- Word Count — Live counter to match Shopify best practices
+- Fully Responsive — Works on mobile, tablet and desktop
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Next.js 14 (App Router) |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| AI Model | OpenAI GPT-4o-mini |
+| Rate Limiting | IP-based (10 req/min) + localStorage (5/visitor) |
+| Deployment | Vercel |
+
+---
+
+## Run Locally
+
+\\\ash
+git clone https://github.com/mustuqalbi/ai-product-writer.git
+cd ai-product-writer
+npm install
+echo "OPENAI_API_KEY=your_key_here" > .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+\\\
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 and start generating descriptions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## How It Works
 
-## Learn More
+1. Enter your product name, category and key features
+2. Select a tone that matches your brand voice
+3. Click Generate — AI writes a 120-180 word description
+4. Copy and paste directly into your Shopify product page
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+\\\
+src/
+├── app/
+│   ├── api/generate/route.ts   # OpenAI API endpoint + rate limiter
+│   └── page.tsx                # Generator UI
+\\\
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Built by
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Ghulam Mustafa** — AI Automation Engineer
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-ghulammustafa.dev-00D9FF?style=for-the-badge)](https://ghulammustafa.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-gmustafa--dev-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/gmustafa-dev)
+
+> Want this tool custom-built for your Shopify store? [Book a free call](https://cal.com/ghulammustafa/20min)
